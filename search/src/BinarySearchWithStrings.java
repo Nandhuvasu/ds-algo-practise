@@ -20,7 +20,7 @@ public class BinarySearchWithStrings {
     static int binarySearch(String[] input, String target){
         int left = 0;
         int right = input.length -1;
-        while(left < right){
+        while(left <= right){
             int position = (left + right) / 2;
             System.out.println(left);
             System.out.println(right);
